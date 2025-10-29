@@ -70,13 +70,13 @@ CORS_ALLOW_ALL_ORIGINS = True  # Only for development
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4000",  # Example for local development
     "http://127.0.0.1:4000",  # Example for local development
-    "books-xeew.onrender.com",
+    "https://books-xeew.onrender.com",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:4000",
     "http://127.0.0.1:4000",
-    "books-xeew.onrender.com",
+    "https://books-xeew.onrender.com",
     # ... other production domains
 ]
 CORS_ALLOW_CREDENTIALS = True
